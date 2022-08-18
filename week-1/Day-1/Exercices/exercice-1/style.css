@@ -1,0 +1,32 @@
+span{
+	background-color: yellow;
+}
+.list{
+	margin-left: 25px;
+}
+ol{
+	list-style-type: upper-roman;
+}
+img{
+	width: 50%px;
+	height: 400px;
+	display: block;
+	margin-top: 80px;
+	margin: auto;
+	cursor: pointer;
+}
+.box{
+	box-sizing: border-box;
+	border:solid red 2px;
+	padding: 5px;
+	text-align: center;
+	width: 86%;
+	margin: auto;
+}
+th,tr{
+border: 1px solid black;
+}
+table{
+	margin: auto;
+	margin-top: 20px;
+}
