@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=DynaPuff&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	background-color: black;
+	display: flex;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	justify-content: flex-start;
+	
+
+}
+
+nav{
+	float: right;
+	justify-content: flex-end;
+
+}
+ul{
+	list-style-type: none;
+}
+li{
+
+color: white;
+display: inline;
+font-size: 50px;
+text-transform: uppercase;
+padding: 10px;
+}
+
+li:hover{
+	background-color: red;
+}
+/*fin barre de naviguation*/
+
+section{
+	
+	margin-top: 101px;
+	background: url(https://user-images.githubusercontent.com/30896388/168069577-2f570d08-61d3-49d8-b7dd-c4b9192aaf68.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 90vh;
+	z-index: -1;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+}
+h1{
+	font-size: 100px;
+	text-transform: uppercase;
+	margin-left: 5%;
+	font-family: 'Aboreto', cursive;
+}
+p{
+	width: 40%;
+	font-size: 18px;
+	margin-left: 10%;
+	padding: 15px;
+	font-family: 'DynaPuff', cursive;
+}
+footer{
+	
+	background-color: black;
+	color: white;
+	padding: 16px;
+
+}
+.social-media{
+display: flex;
+justify-content: center;
+
+}
+
+.social-media p{
+border: solid 2px white;
+border-radius: 100%;
+text-align: center;
+width: 30px;
+padding: 5px;
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+	h1{
+		font-size: 35px;
+	}
+	header{
+		background-color: yellow;
+		color: black;
+	}
+
+} 
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+	h1{
+		font-size: 25px;
+	}
+	header{
+		background-color: #5AF758;
+		color: black;
+	}
+
+} 
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	header{
+		background-color: red;
+		color: white;
+	}
+	section{
+		display: flex;
+	}
+}
+
+
+@media screen and (min-width: 1200px){
+	header{
+		background-color: black;
+		color: white;
+	}
+}

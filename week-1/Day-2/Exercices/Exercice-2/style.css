@@ -33,7 +33,7 @@ h1{
 }
 .log h1{
 	margin-top: 80px;
-	margin: 15px;
+	margin: 25px;
 
 }
 .log form{
@@ -98,26 +98,27 @@ footer{
 	padding: 5%;
 	color: white;
 	background-color: purple;
+	box-shadow: 60px 60px 1000PX 35px #2B2626 inset;
 }
 .register h1{
 	margin: 10px;
 }
 .register button{
 	width: 30%;
-	border: solid 1px white;
+	border: solid 2px white;
+	border-radius: 15%/50%;
 	background-color: purple;
 	color: white;
 	width: 160px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
 }
 
 .register button i{
-	border: solid 1px white;
 	background-color: purple;
 	color: white;
-	width: 15px;
-	height: 12px;
 	margin-left: 4px;
-	border-radius: 50%;
 } 
 
 .register button span{
