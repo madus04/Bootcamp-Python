@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.block{
+	width: 100px;
+	height: 100px;
+	border: solid 1px black;
+	background-color: yellow;
+}
+
+.conteiner{
+	display: grid;
+	grid-template-columns: auto 50% auto;
+}
+
+.item1, .item3{
+	display: grid;
+	gap: 10px;
+	grid-row: repeat(4, 24%);
+}
+
+.item3{
+	justify-content: flex-end;
+}
+.item2{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
